@@ -2,27 +2,21 @@ import sys
 import pyperclip
 
 """
-This script takes in a matrix separated by whitespace and newlines (the format of matlab output)
+This script takes in a matrix of symbols separated by whitespace and newlines (the format of matlab output)
 and copies a LaTex format matrix to clipboard.
 
 Usage:
->>python3 matlab_matrix.py "
-    1.0000    0.7000         0         0         0
-         0         0    0.5000         0         0
-         0    0.3000         0    0.6000         0
-         0         0    0.5000         0         0
-         0         0         0    0.4000    1.0000
-"
+>>> python3 symbol_matrix.py "a b c
+> d e f
+> g e h
+> "
 \begin{bmatrix*}
-     1   0.7     0     0     0 \\
-     0     0   0.5     0     0 \\
-     0   0.3     0   0.6     0 \\
-     0     0   0.5     0     0 \\
-     0     0     0   0.4     1
+a && b && c \\
+d && e && f \\
+g && e && h
 \end{bmatrix*}
  
 Copied to clipboard.
-
 """
 
 lines = sys.argv[1].split("\n")

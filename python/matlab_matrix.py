@@ -2,11 +2,11 @@ import sys
 import pyperclip
 
 """
-This script takes in a matrix separated by whitespace and newlines (the format of matlab output)
+This script takes in a matrix of numbers separated by whitespace and newlines (the format of matlab output)
 and copies a LaTex format matrix to clipboard.
 
 Usage:
->>python3 matlab_matrix.py "
+>>> python3 matlab_matrix.py "
     1.0000    0.7000         0         0         0
          0         0    0.5000         0         0
          0    0.3000         0    0.6000         0

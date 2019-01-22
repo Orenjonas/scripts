@@ -8,10 +8,13 @@ vim
 git
 python-pip
 python3-pip
+python-gpg
 ipython3
 neovim
 zathura
 curl
+ctags
+r-base
 "
 
 sudo apt install -y $apps
@@ -24,6 +27,8 @@ git clone https://github.com/Orenjonas/dotfiles.git
 git clone https://github.com/Orenjonas/scripts.git
 
 
+mkdir ~/.vim
+touch ~/.vim/after.vim
 
 
 

@@ -15,6 +15,9 @@ zathura
 curl
 ctags
 r-base
+texlive-latex-extra
+texlive-science
+latexmk
 "
 
 sudo apt install -y $apps

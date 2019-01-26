@@ -17,7 +17,10 @@ ctags
 r-base
 texlive-latex-extra
 texlive-science
+texlive-fonts-extra
+texlive-lang-european
 latexmk
+xdotool
 "
 
 sudo apt install -y $apps

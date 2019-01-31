@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Script for installing my apps on a fresh linux install (with applitude)
+
 sudo apt udate
 sudo apt upgrade -y
 
@@ -21,6 +23,7 @@ texlive-fonts-extra
 texlive-lang-european
 latexmk
 xdotool
+cargo
 "
 
 sudo apt install -y $apps

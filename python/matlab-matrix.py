@@ -2,8 +2,10 @@ import sys
 import pyperclip
 
 """
-This script takes in a matrix of numbers separated by whitespace and newlines (the format of matlab output)
-and copies a LaTex format matrix to clipboard.
+This is a script for producing LaTex formatted matrixes.
+It takes in a matrix of numbers separated by whitespace and newlines
+(the format of matlab output) from the command line and copies a LaTex 
+format matrix to the clipboard.
 
 Usage:
 >>> python3 matlab_matrix.py "

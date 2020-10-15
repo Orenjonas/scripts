@@ -2,6 +2,8 @@ import re, pyperclip, sys
 
 a = pyperclip.paste()
 
+test
+
 b = re.split("\n", a)
 c = list()
 for i, s in enumerate(b):

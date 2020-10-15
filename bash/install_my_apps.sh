@@ -6,13 +6,7 @@ sudo apt udate
 sudo apt upgrade -y
 
 apps="
-vim
 git
-python-pip
-python3-pip
-python-gpg
-ipython3
-neovim
 zathura
 curl
 ctags
